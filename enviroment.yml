@@ -1,6 +1,13 @@
-name: curso xikola
+name: example-environment
 channels:
   - conda-forge
- dependencies:
-  - python =3
-  -obspy >=1.2.0
+dependencies:
+  - numpy
+  - psutil
+  - toolz
+  - matplotlib
+  - dill
+  - pandas
+  - partd
+  - bokeh
+  - dask
